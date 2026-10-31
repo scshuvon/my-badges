@@ -1,0 +1,137 @@
+{
+  "id": "com.topx.af7f0bb32c86",
+  "version": "10.0.1",
+  "name": "SC Shuvon",
+  "description": "SC Shuvon Top X catalogs for Nuvio & Stremio",
+  "logo": "YOUR_PUBLIC_LOGO_URL",
+  "types": [
+    "movie",
+    "series"
+  ],
+  "resources": [
+    "catalog",
+    "meta"
+  ],
+  "idPrefixes": [
+    "tt",
+    "tmdb",
+    "jw",
+    "tx"
+  ],
+  "catalogs": [
+    {
+      "id": "tx.in.netflix.movie",
+      "type": "movie",
+      "name": "Netflix Top 10 Movies Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.netflix.series",
+      "type": "series",
+      "name": "Netflix Top 10 Series Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.amazon-prime.movie",
+      "type": "movie",
+      "name": "Amazon Prime Video Top 10 Movies Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.amazon-prime.series",
+      "type": "series",
+      "name": "Amazon Prime Video Top 10 Series Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.disney.movie",
+      "type": "movie",
+      "name": "Disney+ Top 10 Movies Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.disney.series",
+      "type": "series",
+      "name": "Disney+ Top 10 Series Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.crunchyroll.movie",
+      "type": "movie",
+      "name": "Crunchyroll Top 10 Movies Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.crunchyroll.series",
+      "type": "series",
+      "name": "Crunchyroll Top 10 Series Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.apple-tv.movie",
+      "type": "movie",
+      "name": "Apple TV+ Top 10 Movies Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "id": "tx.in.apple-tv.series",
+      "type": "series",
+      "name": "Apple TV+ Top 10 Series Today",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
